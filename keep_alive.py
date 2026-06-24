@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-  return "Your bot is alive And Ready To Raid!! For More Awesome Shit Join Our Discord Server!: https://discord.gg/ZQdwGKMSDv"
+  return "Your bot is alive And Ready To Raid!!"
 
 def run():
     app.run(host="0.0.0.0", port=8080)
